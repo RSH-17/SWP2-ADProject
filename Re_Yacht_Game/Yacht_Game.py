@@ -73,10 +73,10 @@ class GameEnd(QWidget):
         v_box = QVBoxLayout()
         v_box.setAlignment(Qt.AlignHCenter)
 
-        self.v_box.addWidget(winner)
-        self.v_box.addWidget(self.restart_btn)
+        v_box.addWidget(winner)
+        v_box.addWidget(self.restart_btn)
 
-        self.setLayout(self.v_box)
+        self.setLayout(v_box)
 
         self.show()
 
